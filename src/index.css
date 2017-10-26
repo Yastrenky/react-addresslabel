@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.from-person, .to-person {
+  height: 60px;
+  margin: 10px;
+  border: 2px solid #a1a1a1;
+  padding: 10px;
+  background: #dddddd;
+  width: 50%;
+  border-radius: 6px;
+  box-shadow: 5px 3px 13px #888888;
+}
+
+
+.envelope {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 550px;
+  height: 255px;
+  flex-direction: row;
+}
+.to-person{
+  align-self: center;
+}
+.envelope h5:last-of-type {
+  display: flex;
+  align-self: center;
+}
